@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Javascript Web Output #1</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="">Insert any Positive Numbers:</label>
+            </td>
+            <td>
+                <input type="text" id="txtNum" placeholder="Insert a number here...">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button id="btn1">Insert</button>
+                <button id="btn2">Clear</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <fieldset>
+        <legend>Inserted Numbers</legend>
+        <table id="tblNumbers">
+        </table>
+    </fieldset>
+
+    <button id="btn3" style="margin-top: 10px; display: none;">Clear Items</button>
+    <button id="btn4" style="margin-top: 10px; display: none;">Get Total</button>
+    <button id="btn5" style="margin-top: 10px; display: none;">Get Lowest/Highest</button>
+
+    <label for="Formation" id="sort" style="display: none;">Sort By:</label>
+    <select name="Formation" id="sort1" style="display: none;">
+    <option value="Def" id="Def">Default</option>
+    <option value="Acc" id="Acc">Ascending</option>
+    <option value="Dec" id="Dec">Decending</option>
+    </select>
+
+    <script src="main.js"></script>
+</body>
+</html>
